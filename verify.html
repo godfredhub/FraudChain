@@ -1,0 +1,49 @@
+<!-- verify.html -->
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-900 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FraudChain | Verify</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between p-4 bg-gray-950 shadow-md border-b border-gray-800">
+      <h1 class="text-2xl font-bold text-indigo-500">FraudChain</h1>
+      <div class="space-x-4 text-sm">
+        <a href="index.html" class="hover:text-indigo-400">Home</a>
+        <a href="report.html" class="hover:text-indigo-400">Report</a>
+        <a href="verify.html" class="text-indigo-400 font-semibold">Verify</a>
+        <a href="insights.html" class="hover:text-indigo-400">Insights</a>
+        <a href="tips.html" class="hover:text-indigo-400">Tips</a>
+        <a href="support.html" class="hover:text-indigo-400">Support</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center py-20 px-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Verify a Number or Wallet</h2>
+      <p class="text-gray-400 mb-8 max-w-xl mx-auto">Enter any phone number or wallet address to check if it has been flagged by our global database of scam reports.</p>
+
+      <form class="max-w-xl mx-auto">
+        <input type="text" placeholder="Enter phone number or wallet address" class="w-full p-3 rounded-xl bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-4 text-white" />
+        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 rounded-xl transition-all">Check Now</button>
+      </form>
+    </section>
+
+    <!-- Results Placeholder -->
+    <section class="max-w-xl mx-auto px-4 pb-16">
+      <div class="bg-gray-800 rounded-xl p-6 mt-8 border border-gray-700">
+        <p class="text-gray-400">Results will appear here. If the address or number is clean, it will show green. If flagged, it will show red with related reports.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 border-t border-gray-800 text-gray-500 text-sm">
+      &copy; 2025 FraudChain. Verified protection on-chain.
+    </footer>
+
+  </body>
+</html>
